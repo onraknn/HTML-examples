@@ -1,0 +1,98 @@
+
+/*text-transform: capitalize; ilk harfi buyuk yazar*/
+/*text-transform: lowercase; hepsi kucuk harfe donusur*/
+/*text-transform: uppercase; hepsi buyuk harfe donusur*/
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(216, 197, 197);
+    /*background-image: url(a.jpg);*/
+    /*background-repeat: ;*/
+    /*background-attachment: fixed;*/
+}
+
+#id1{
+    font-size: 50px;
+}
+
+.paragraf{
+    color: red;
+    background-color: black;
+    text-decoration: underline;
+    text-indent: 30px; /*30px bosluk birekti paragraf basligi*/
+    letter-spacing: 5px; /* harfler arasi bosluk birakir */
+}
+.h1{
+    color: aqua;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, s1ans-serif;
+    
+  
+}
+
+.yazi{
+    width: 400px;
+    height: 180px;
+    border: 10px solid ;
+    text-align: center;
+    padding: 15px; /* 15 pixel bosluk birakir */ 
+    /*padding-left: ;*/
+    overflow: hidden; /* tasani gizliyor*/
+    /* white-space: nowrap; /* tek satir halinde gosterir asagi inmez*/ 
+    /* white-space: pre; /*senin belirledigin sitilde gosterir */
+
+}
+
+.divnitelik{
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    text-align: center;
+    border-style: double;
+    
+}
+
+.div1{
+    border-radius: 30px;
+    
+}
+
+.div2{
+    
+    border-left: 20px solid;
+    border-bottom-left-radius: 25px;
+}
+
+a{
+    color: aquamarine;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+div/*,div2*/{
+    color: blue;
+}
+
+div p{ /* divin altindaki p yi etkiledi*/
+    color: aquamarine;
+}
+
+/* bütün p'leri mavi yapar
+p{
+    color: blue;
+}
+*/
+
+/*
+.deneme, .deneme{
+    bu yapida kullanilir.
+}
+*/
+
+
+

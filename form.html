@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+	<meta name="description" content="Sayfa">
+	<title>Form</title> 
+	<meta charset="YTF-8">
+</head>
+<body> 
+    
+    <form action="geçiş.html" method="post">
+
+        <label for="adi_id">Adiniz :</label>
+        <input type="text" placeholder="adinizi giriniz" minlength="3" maxlength="20" required name="adi" id="adi_id">
+        <br><br>
+
+        <label>Soyadiniz :</label>
+        <input type="text" name="soyadi" id="soyadi_id">
+        <br><br>
+
+        <label>Sifre :</label name="sifre" id="sifre_id">
+        <input type="password">
+        <br><br>
+        <label>Adres</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+        <br><br><br>
+        
+        <LAbel>bildiginiz dil sayisi</LAbel>
+        <select name="teknoloji" >
+        <option value="0">Seciniz</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        </select>
+
+        <br><br><br>   
+
+        <input type="radio" name="cins" value="erkek"> Erkek
+        <input type="radio" name="cins" value="kadin" id="kadin_id"> <label for="kadin_id">Kadin</label> 
+        <input type="radio" name="insan" value="insan"> Insan
+        <br><br><br>
+
+        <label for="">Hobileriniz : </label><br><br>
+        <input type="checkbox" name="hobi" value=yuzme id="yuzme_id"><label for="yuzme_id">Yuzme</label>
+        <input type="checkbox" name="hobi" value=dizi>Dizi
+        <input type="checkbox" name="hobi" value=kitap>Kitap
+        <br><br> 
+        
+
+        <fieldset>
+        <legend>butonlar</legend>
+        <input type="submit">
+        <br><br>
+        <input type="reset">
+        </fieldset>
+
+
+    </form>
+
+</body>
+</html>

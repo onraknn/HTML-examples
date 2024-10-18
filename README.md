@@ -1,2 +1,2 @@
-# HTML-incepsion
-HTML baslangic
+# HTML-examples
+HTML cods
